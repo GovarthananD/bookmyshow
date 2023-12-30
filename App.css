@@ -1,0 +1,159 @@
+/* .App {
+  text-align: center;
+} */
+.firstcard{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .book{
+    height: 50px;
+  }
+  .headinput{
+    margin-left: -80px;
+    width: 35%;
+    padding: 10px;
+    border-radius:8px;
+    border: 1px ridge;
+  }
+  .select{
+    border: none;
+  }
+  .sign{
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    width: 60px;
+    color: white;
+    background-color: #ed4262;
+  }
+}
+.quick{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f5f0f1;
+}
+.recommend{
+  margin-left: 100px;
+  opacity: 80%;
+}
+.movie-container{
+  width: 207px;
+
+  .poster{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .star{
+    height: 15px;
+  }
+  .jouner{
+    color: darkgrey;
+    margin-top: -50px;
+  }
+  .movie-name{
+    margin-top: -20px;
+    font-family: sans-serif;
+  }
+  .movie-specs{
+    display: flex;
+    align-items: center;
+    margin-top: -50px;
+    margin-left: 10px;
+    color: white;
+    column-gap: 10px;
+  }
+}
+.movie-list{
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.stream{
+  margin-left: 130px;
+  justify-content: space-between;
+  height: 100px;
+  width: 80%;
+  background-image: url("https://st.depositphotos.com/1968353/2535/i/450/depositphotos_25358829-stock-illustration-film-reels.jpg");
+  border-radius: 13px;
+  
+
+  .sbook{
+    height: 60px;
+    width: 130px;
+    margin-left: -190px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.endless{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:burlywood;
+  column-gap: 10px;
+  padding-top: 30px;
+  padding-left: 130px;
+}
+
+.ending{
+  background-color: #444b57;
+  height: 370px;
+  width: 100%;
+  margin-top: 100px;
+
+  .paraending{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .contact{
+      color: white;
+      background-color: #ed4262;
+      height: 30px;
+      border-radius: 3px;
+    }
+  }
+}
+.query{
+  height: 100px;
+  background-color: #717780;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #c0c7d1;
+}
+.endpic{
+  margin-left: 550px;
+  height: 50px;
+  width: 150px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .logo1{
+    height: 30px;
+    width: 30px;
+  }
+  .logo2{
+    height: 20px;
+    width: 30px;
+  }
+  .logo3{
+    height: 30px;
+    width: 30px;
+  }
+}
+.rights{
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c0c7d1;
+}
